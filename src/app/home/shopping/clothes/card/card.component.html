@@ -1,0 +1,38 @@
+
+    
+        <div class="grid-item"> <div class="card">
+          <div class="cont-img">
+            <img
+              src="{{ dress.image }}"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+            <div class="card-body">
+              <div class="desc text-oneline">
+              <h5 class="card-title ">{{ dress.title }}</h5>
+            </div>
+              <h6>{{ dress.price }}€ </h6>
+             
+              <div class="content-btn">
+                  <div class="grid-item"><a href="#!" class="btn btn-primary">
+                    <img src="assets/prefvuoto.png" 
+                    (click)="getPref()"
+                    *ngIf = "!isPref"
+                    class="icon-card"/>
+                    <img src="assets/prefpieno.png" 
+                    (click)="removePref()"
+                    class="icon-card"
+                    *ngIf = "isPref"/>
+                  </a></div>
+                  <div class="grid-item"><a href="#!" class="btn btn-primary"><img src="assets/icona-carrello.png" class="icon-card"/></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+
+
+
+

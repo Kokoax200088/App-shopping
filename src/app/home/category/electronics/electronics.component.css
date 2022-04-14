@@ -1,0 +1,32 @@
+
+.slogan{
+    width: 1000px;
+    float: left;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.para{
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 30px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.sect{
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.sect h2{
+    font-weight: 400;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }

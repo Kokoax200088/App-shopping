@@ -1,0 +1,33 @@
+.footer{
+    background-color: black;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    margin-left: 20px;
+  }
+  .grid-item {
+    padding: 10px;
+    color: white;
+  }
+
+  .grid-item h2{
+      font-size: 20px;
+      font-weight: 400;
+  }
+
+  .grid-item p{
+      font-size: 15px;
+      font-weight: lighter;
+  }
+
+  .grid-item .luogo {
+      width: 30px;
+      float: left;
+      margin-right: 10px;
+  }
+
+  .grid-item .loghi {
+      width: 33px;
+  }

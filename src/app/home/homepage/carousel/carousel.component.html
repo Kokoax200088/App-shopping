@@ -1,0 +1,41 @@
+<div class="testo">
+    <p>Segui la moda con il nostro Shop numero 1.</p>
+        <br>
+        <p> Abiti che fanno per te. </p>
+        <br>
+        <p> Stupiscili con il tuo abbigliamento.</p>
+        <br>
+        <p> Scegli la felicità, scegli i vestiti, scegli Isa Shop.
+    </p>
+</div>
+
+<ngb-carousel *ngIf="images">
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[0]" >
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[1]" >
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img [src]="images[2]" >
+      </div>
+      <div class="carousel-caption">
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+        <div class="picsum-img-wrapper">
+          <img [src]="images[3]" >
+        </div>
+        <div class="carousel-caption">
+        </div>
+      </ng-template>
+</ngb-carousel>

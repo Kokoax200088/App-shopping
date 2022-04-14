@@ -1,0 +1,66 @@
+.card{
+    width: 300px;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card .card-img-top{
+  margin-top: 20px;
+  max-width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+
+
+h5{
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.desc {
+  height: 50px;
+  
+}
+
+ .text-oneline ::ng-deep * {
+
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.desc .card-title{
+  font-size: 20px;
+}
+
+  .grid-item {
+   
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .btn-primary{
+    background-color: black;
+    border: none;
+  }
+
+  .btn-primary:hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  }
+
+  .btn-primary:active{
+      box-shadow: none;
+  }
+
+  .content-btn {
+      display: grid;
+      grid-template-columns: auto auto;
+  }
+
+  .icon-card {
+      width: 20px;
+  }

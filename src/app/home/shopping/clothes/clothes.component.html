@@ -1,0 +1,14 @@
+<div class="section-card">
+    <img src="assets/shopping/saldishop.gif" class="imgsal"/>
+    <h2>Scegli i tuoi vestiti</h2>
+    <div style="padding: 10px;">
+    <div class="grid-container">
+    <app-card 
+    [dress]="dress"
+    *ngFor="let dress of clothesArray"
+    ></app-card>
+    </div>
+    </div>
+    <img src="assets/shopping/slogan.png" style="margin-bottom: 30px;"/>
+
+</div>

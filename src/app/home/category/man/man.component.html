@@ -1,0 +1,32 @@
+<div class="uomo">
+    <div class="grid-cc">
+        <div class="grid-itemss">
+            <img src="assets/uomo/imageone.webp" />
+        </div>
+        <div class="grid-itemss">
+            <img src="assets/uomo/imagetwo.webp" />
+        </div>
+        <div class="grid-itemss">
+            <img src="assets/uomo/imagetre.webp" />
+        </div>  
+        <div class="grid-itemss">
+            <img src="assets/uomo/imagefour.jpg" />
+        </div> 
+    </div>
+    <div class="intro">
+        <h2>Moda Uomo 2022</h2>
+        <img src="assets/uomo/sloganuomo.png" class="imgsh" style="margin-top: 20px;"/>
+    </div>
+    <div class="sect">
+        <h2>I nostri vestiti uomo 2022</h2>
+        <div class="grid-container">
+        <app-card
+        [dress]="dress"
+            *ngFor="let dress of clothesArray"
+        ></app-card>
+        
+    </div>
+    <img src="assets/uomo/iconauomo.png" style="width: 900px;" class="imgsh"/>
+    </div>
+</div>
+<app-footer></app-footer>

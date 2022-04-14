@@ -1,0 +1,17 @@
+<div class="preferiti" style="margin-bottom: 20px;">
+    <div class="intro" style="text-align: center;">
+        <h2 style="font-weight: 400; margin-top: 30px;">I tuoi preferiti</h2>
+    </div>
+
+    <div class="sect" style="text-align: center;">
+        <div class="g-c">
+            <app-card
+            [dress]="dress"
+            *ngFor="let dress of clothesArray"
+            ></app-card>
+        </div>
+        <p class="dede">Aggiungi altri preferiti <img src="assets/cart/add.png" style="width: 30px;"/></p>
+    </div>
+</div>
+
+<app-footer></app-footer>

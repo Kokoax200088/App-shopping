@@ -1,0 +1,34 @@
+<div class="gioielli">
+    <div class="intro" style="text-align: center;">
+        <p>Scegli la tua strada fra i diamanti di Isa Shop</p>
+        <img src="assets/gioielli/slogan.png" class="imgsh"/>
+        <div class="grid-c">
+            <div class="item">
+                <img src="assets/gioielli/logouno.png"  class="imgsh">
+            </div>
+            <div class="item">
+                <p>I migliori gioielli</p>
+                <br>
+                <p>Alta qualità</p>
+                <br>
+                <p>Abbandona la bigiotteria e scegli Isa Shop</p>
+                <br>
+                <p>Alta moda, basso costo!</p>
+            </div>
+            <div class="item">
+                <img src="assets/gioielli/logodue.png"  class="imgsh">
+            </div>
+        </div>
+    </div>
+    <div class="sect">
+        <h2>I nostri gioielli</h2>
+        <div class="grid-container">
+        <app-card
+        [dress]="dress"
+            *ngFor="let dress of clothesArray"
+        ></app-card>
+    </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

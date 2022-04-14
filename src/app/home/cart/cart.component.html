@@ -1,0 +1,24 @@
+<div class="carrello">
+    <div class="intro">
+        <h2>Il tuo carrello</h2>
+        <div class="viaa" style="text-align: center; font-weight: lighter;">
+            <p>Spedizione: <img src="assets/cart/luogo.png" style="width: 30px; margin-bottom: 8px;"/>Via Acaso, 34</p>
+        </div>
+    </div>
+    <div class="sect">
+        <div class="grid-container">
+            <app-cardcart
+            [vest]="vest"
+            *ngFor="let vest of vestArray"
+            ></app-cardcart>
+        </div>
+
+        <div class="ordinazione" style="text-align: center;">
+            <button class="btn-ord">
+                Compra ora!
+            </button>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

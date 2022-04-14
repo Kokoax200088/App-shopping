@@ -1,0 +1,25 @@
+<div class="tutto-elettrico" >
+    <div class="intro">
+        <img src="assets/elettrico/slogan.png" class="slogan"/>
+        <div class="para">
+            <p>Non esitare e dai un'occhiata ai nostri prodotti!</p>
+            <br>
+          <p>  Isa Shop ti offre l'innovazione che cerchi.</p>
+            <br>
+           <p> Sorprendi i tuoi amici!</p>
+            <br>
+           <p> Tanti prodotti per scoprire un nuovo mondo.</p>
+        </div>
+    </div>
+
+    <div class="sect">
+        <h2>Le nostre proposte</h2>
+        <div class="grid-container">
+            <app-card [dress]="dress"
+            *ngFor="let dress of clothesArray"
+            ></app-card>
+        </div>
+    </div>
+
+</div>
+<app-footer></app-footer>
