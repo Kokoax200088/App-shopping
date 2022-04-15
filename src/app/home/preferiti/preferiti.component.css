@@ -8,3 +8,9 @@
     font-weight: lighter;
     font-size: 20px;
 }
+
+.links{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
