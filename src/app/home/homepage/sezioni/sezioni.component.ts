@@ -16,12 +16,15 @@ export class SezioniComponent implements OnInit {
   goWoman(){
     this.router.navigate(['woman']);
   }
+
   goMan(){
     this.router.navigate(['man']);
   }
+
   goElet(){
     this.router.navigate(['elet']);
   }
+  
   goJew(){
     this.router.navigate(['jew']);
   }
