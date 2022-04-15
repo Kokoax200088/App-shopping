@@ -10,7 +10,9 @@ export class CarouselComponent implements OnInit {
     "assets/carosello/car-zero.jpg",
     "assets/carosello/car-uno.jpg",
     "assets/carosello/car-due.jpg",
-    "assets/carosello/car-tre.jpg"
+    "assets/carosello/car-tre.jpg",
+    "assets/carosello/car-quattro.jpg",
+    "assets/carosello/car-cinq.jpg",
   ]
 
   constructor() { }
