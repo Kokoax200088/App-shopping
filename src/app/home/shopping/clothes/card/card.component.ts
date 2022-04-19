@@ -16,7 +16,7 @@ export class CardComponent implements OnInit {
   // dress: ClothesModel = new ClothesModel();
 
 
-  constructor(private cloth: ClothesService, private router: Router) { }
+  constructor() { }
 
   ngOnInit(): void {
      
