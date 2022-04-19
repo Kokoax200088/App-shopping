@@ -13,8 +13,38 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onWoman(){
-    this.router.navigate(['woman'], {relativeTo: this.route});
+  goHome(){
+    this.router.navigate(['homepage']);
   }
+  goShop(){
+    this.router.navigate(['shopping']);
+  }
+  goCart(){
+    this.router.navigate(['cart']);
+  }
+  goMe(){
+    this.router.navigate(['me']);
+  }
+
+  goPref(){
+    this.router.navigate(['prefe']);
+  }
+
+  goWoman(){
+    this.router.navigate(['woman']);
+  }
+
+  goMan(){
+    this.router.navigate(['man']);
+  }
+
+  goElet(){
+    this.router.navigate(['elet']);
+  }
+  
+  goJew(){
+    this.router.navigate(['jew']);
+  }
+
 
 }

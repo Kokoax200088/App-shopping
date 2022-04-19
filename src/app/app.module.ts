@@ -23,6 +23,8 @@ import { ManComponent } from './home/category/man/man.component';
 import { CartComponent } from './home/cart/cart.component';
 import { CardcartComponent } from './home/cart/cardcart/cardcart.component';
 import { PreferitiComponent } from './home/preferiti/preferiti.component';
+import { RouterModule } from '@angular/router';
+import { LoaderComponent } from './home/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -44,12 +46,44 @@ import { PreferitiComponent } from './home/preferiti/preferiti.component';
     CartComponent,
     CardcartComponent,
     PreferitiComponent,
+    LoaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule,
+    RouterModule.forRoot([
+      {
+        path: 'homepage', component: HomepageComponent
+      },
+      {
+        path: 'woman', component: WomanComponent
+      },
+      {
+        path: 'shopping', component: ShoppingComponent
+      },
+      {
+        path: 'man', component: ManComponent
+      },
+      {
+        path: 'elet', component: ElectronicsComponent
+      },
+      {
+        path: 'jew', component: JeweleryComponent
+      },
+      {
+        path: 'cart', component: CartComponent
+      },
+      {
+        path: 'me', component: MepageComponent
+      },
+      {
+        path: 'prefe', component: PreferitiComponent
+      },
+      {path: '', redirectTo: '/homepage', pathMatch: 'full'},
+    ]),
   ],
   providers: [ClothesService],
   bootstrap: [AppComponent]

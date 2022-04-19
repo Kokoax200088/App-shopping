@@ -8,21 +8,7 @@ import { WomanComponent } from './home/category/woman/woman.component';
 import { ShoppingComponent } from './home/shopping/shopping.component';
 
 const routes: Routes = [
-  {
-    path: 'woman', component: WomanComponent
-  },
-  {
-    path: 'shopping', component: ShoppingComponent
-  },
-  {
-    path: 'man', component: ManComponent
-  },
-  {
-    path: 'elet', component: ElectronicsComponent
-  },
-  {
-    path: 'jew', component: JeweleryComponent
-  },
+ 
   
   // {
   //   path: 'category', component: CategoryComponent,

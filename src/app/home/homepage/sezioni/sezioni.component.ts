@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-sezioni',
@@ -14,11 +14,11 @@ export class SezioniComponent implements OnInit {
   }
 
   goWoman(){
-    this.router.navigate(['woman']);
+    this.router.navigateByUrl('/woman');
   }
 
   goMan(){
-    this.router.navigate(['man']);
+    this.router.navigate(['/man']);
   }
 
   goElet(){
