@@ -10,12 +10,8 @@ import { ClothesService } from '../clothes.service';
 })
 export class CardComponent implements OnInit {
   @Input() dress: ClothesModel;
-
   isPref = false;
   
-  // dress: ClothesModel = new ClothesModel();
-
-
   constructor() { }
 
   ngOnInit(): void {
