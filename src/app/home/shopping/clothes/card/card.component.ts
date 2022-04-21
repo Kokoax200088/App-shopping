@@ -20,6 +20,7 @@ export class CardComponent implements OnInit {
 
   getPref(){
     this.isPref = true;
+    console.log(this.isPref);
   }
 
   removePref(){
